@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameChoiceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/MemoryOfAGoldfish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openTimeHighScore"
+            android:text="@string/highscore_time" />
+
+        <Button
+            android:id="@+id/MemoryOfAElephant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openTurnsHighscore"
+            android:text="@string/highscore_num_turns" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="openLongestSequence"
+            android:text="@string/highscore_longest_sequence" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

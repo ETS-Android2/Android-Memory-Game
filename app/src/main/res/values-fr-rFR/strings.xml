@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Imzi, Marwane - ACW</string>
+    <string name="elephant_choice_string">"Mémoire d'un éléphant "</string>
+    <string name="goldfish_choice_string">Mémoire d\'un poisson rouge</string>
+    <string name="leader_board">Classement</string>
+    <string name="highscore_num_turns">"Tableau des leaders Number of Turns "</string>
+    <string name="choose_theme">Choisissez le thème</string>
+    <string name="puzzle_skin_button">Peau de puzzle</string>
+    <string name="play_string">Jouer</string>
+    <string name="you_win_part">Vous gagnez! Ton temps - %1$s Seconds\\nVotre nombre de tours - %2$d\\nVotre plus longue séquence - %3$d\\nVeuillez saisir votre nom:</string>
+    <string name="highscore_time">" Tableau des leaders du temps"</string>
+    <string name="highscore_longest_sequence">"Tableau de classement de la plus longue séquence "</string>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Imzi, Marwane - ACW</string>
+    <string name="play_string">Play</string>
+    <string name="goldfish_choice_string">Memory of a Goldfish</string>
+    <string name="elephant_choice_string">Memory of a Elephant</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="puzzle_skin_button">Puzzle Skin</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="choose_theme">Choose Theme</string>
+    <string name="leader_board">Leader Board</string>
+    <string name="highscore_time"> Time Leader board</string>
+    <string name="highscore_num_turns">" Number of Turns Leader board"</string>
+    <string name="highscore_longest_sequence"> Longest Sequence Leader board</string>
+    <string name="you_win_part"> You Win! Your Time - %1$s Seconds\nYour number of turns - %2$d \nYour Longest Sequence - %3$d \nPlease Type in Your Name:</string>
+</resources>

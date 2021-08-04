@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Marwane\\Desktop\\acwBackUp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fr-rFR\\values-fr-rFR.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Marwane\\Desktop\\acwBackUp\\app\\src\\main\\res\\values-fr-rFR\\strings.xml",
+                    "from": {
+                        "startLines": "2,7,3,4,12,6,11,5,9,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,413,115,192,837,325,761,272,538,475,585",
+                        "endColumns": "56,60,75,78,106,86,74,51,45,61,174",
+                        "endOffsets": "109,469,186,266,939,407,831,319,579,532,755"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,112,173,249,328,435,522,597,649,695,757",
+                        "endColumns": "56,60,75,78,106,86,74,51,45,61,174",
+                        "endOffsets": "107,168,244,323,430,517,592,644,690,752,927"
+                    }
+                }
+            ]
+        }
+    ]
+}

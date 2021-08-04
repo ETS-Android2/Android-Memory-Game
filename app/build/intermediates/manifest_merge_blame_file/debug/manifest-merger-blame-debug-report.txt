@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="imzi.marwane.acw"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:7:5-30:19
+14        android:allowBackup="true"
+14-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.3.1] C:\Users\Marwane\.gradle\caches\transforms-2\files-2.1\395caf503a19363977c06465a7c114a5\core-1.3.1\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:fullBackupContent="true"
+17-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:9:9-41
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:10:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:11:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:12:9-54
+21        android:supportsRtl="true"
+21-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:13:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:14:9-40
+24        <activity android:name="imzi.marwane.acw.HighScoreLongestSeq" />
+24-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:15:9-66
+24-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:15:19-54
+25        <activity android:name="imzi.marwane.acw.HighScoreNumTurns" />
+25-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:16:9-55
+25-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:16:19-52
+26        <activity android:name="imzi.marwane.acw.HighScore" />
+26-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:17:9-47
+26-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:17:19-44
+27        <activity android:name="imzi.marwane.acw.GameActivity" />
+27-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:18:9-50
+27-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:18:19-47
+28        <activity android:name="imzi.marwane.acw.PuzzleActivity" />
+28-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:19:9-52
+28-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:19:19-49
+29        <activity android:name="imzi.marwane.acw.PuzzleSelectorActivity" />
+29-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:20:9-60
+29-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:20:19-57
+30        <activity android:name="imzi.marwane.acw.MainActivity" >
+30-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:21:9-27:20
+30-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:21:19-47
+31            <intent-filter>
+31-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:23:17-69
+32-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:25:17-77
+34-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="imzi.marwane.acw.GameChoiceActivity" />
+37-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:28:9-56
+37-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:28:19-53
+38        <activity android:name="imzi.marwane.acw.MemoryGameActivity" />
+38-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:29:9-56
+38-->C:\Users\Marwane\Desktop\acwBackUp\app\src\main\AndroidManifest.xml:29:19-53
+39
+40        <provider
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Marwane\.gradle\caches\transforms-2\files-2.1\b9c43d96e85ae92cb4d6a82112e73a94\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Marwane\.gradle\caches\transforms-2\files-2.1\b9c43d96e85ae92cb4d6a82112e73a94\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+42            android:authorities="imzi.marwane.acw.lifecycle-process"
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Marwane\.gradle\caches\transforms-2\files-2.1\b9c43d96e85ae92cb4d6a82112e73a94\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+43            android:exported="false"
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Marwane\.gradle\caches\transforms-2\files-2.1\b9c43d96e85ae92cb4d6a82112e73a94\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+44            android:multiprocess="true" />
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Marwane\.gradle\caches\transforms-2\files-2.1\b9c43d96e85ae92cb4d6a82112e73a94\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+45    </application>
+46
+47</manifest>
